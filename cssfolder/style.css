@@ -1,0 +1,345 @@
+/* *General Styles */
+body{
+    margin: 0;
+    padding: 0;
+}
+span , a {
+    display: inline-block;
+}
+.clear{
+    clear: left;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+.pd100{
+    padding: 100px 0;
+}
+ul{
+    list-style: none;
+}
+/* navbar-section */
+.navbar-image{
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-top: 12px;
+}
+.navbar-image a{
+    width: 200px;
+}   
+.navbar-image a img{
+    width: 100%;
+}
+.navbar-list{
+    float: left;
+    width: 55%;
+    margin-right: auto;
+    text-align: center;
+}
+.navbar-list li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar-list li a {
+    color: black;
+    padding: 5px 0;
+    font-size: 20px;
+    font-family: "alegreya sans";
+    color: rgb(247, 240, 240);
+}
+
+/* home-section */
+.home{
+    width: 100%;
+    height: 87vh;
+    background-image: url(/images/main.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.home-content{
+    width: 50%;
+    margin: 220px auto 0 auto;
+    text-align: center;
+}
+.home-content .welcome ,
+.home-content .home-title ,
+.home-content .home-desc ,
+.home-content .btn{
+    color: white;
+    font-family: "Alegreya sans";
+}
+.home-content .home-title {
+    font-family: "Alegreya";
+    margin: 0 0 15px 0;
+    font-size: 76px;
+    font-weight: 200;
+}
+.home-content .welcome {
+    font-size: 22px;
+}
+.home-content .home-desc{
+    font-size: 24px;
+    width: 94%;
+    margin: 0 auto 15px auto;
+    line-height: 1.8; 
+}
+.btn{
+    padding: 15px 28px;
+    width: 140px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 5px;
+    font-weight: bold;
+}
+.home-btn1{
+    background-color:#8e7754;
+    border: 2px solid transparent;
+}
+.home-btn2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+/* about-section */
+
+.about .container > img {
+    width: 35%;
+    margin: 0 80px 0 170px;
+}
+.about .about-content-right{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.about-content-title{
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    font-weight: 100;
+}
+.about-content-desc{
+    font-size: 17px;
+    color: #686868;
+    width: 85%;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.about-content-list li{
+    color: #686868;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.about-content-list li > img {
+    width: 7%;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 50%;
+}
+
+/* our-location section */
+.our-location{
+    background-color: #e8e8e8;
+}
+.our-location-content{
+    display: inline-block;
+    width: 45%;
+    padding-top: 100px;
+    margin-left: 170px;
+    vertical-align:top;
+}
+.our-location-content .our-location-title{
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+}
+.our-location-desc{
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.8;
+    width: 90%;
+}
+.our-location img{
+    width: 40%;
+}
+
+/* our baking section */
+
+.our-baking-title{
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+}
+.our-baking-desc{
+    font-size: 17px;
+    color: #686868;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our-baking-content{
+    width: 80%;
+    margin: auto;
+}
+.card{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.card-title{
+    font-family: "Alegreya", serif;
+    font-size: 22px;
+}
+.card-desc{
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.7;
+    width: 80%;
+    margin: auto;
+}
+.card img{
+    width: 100%;
+}
+.card.center{
+    margin: 0 5%;
+}
+
+/* contact-section */
+.contact{
+    padding: 120px 0;
+    background-color: #f8f8f8;
+}
+.contact-information-content{
+    width: 80%;
+    margin: auto;
+}
+.contact-information , .contact-img{
+    float: left;
+    width: 47%;
+}
+.contact-information-title{
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    font-weight: 100;
+}
+.contact-information-desc{
+    font-size: 17px;
+    color: #686868;
+    margin-bottom: 50px;
+    width: 80%;
+}
+label{
+    font-size: 17px;
+    color: #686868;
+}
+.contact-information-list{
+    list-style: none;
+}
+.contact-information-list li{
+    color: #686868;
+    font-size: 17px;
+    margin: 20px 0;
+    font-family: "Alegreya sans";
+}
+.contact-information-list li > img {
+    width: 7%;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 50%;
+    background-color: #8e7754;
+}
+.contact-img img{
+    width: 100%;
+}
+
+/* summary */
+.summary{
+    background-color: #403d38;
+    padding: 60px 0;
+}
+.summary-content{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.summary-content-item{
+    width: 24%;
+    color: white;
+    float: left;
+}
+.summary-content-item p , .summary-content-item span {
+    color: #969696;
+    line-height: 1.8;
+}
+.summary-content-item h3{
+    font-family: "alegreya";
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.summary-content-item img{
+    width: 7%;
+    vertical-align: middle;
+}
+.summary-content-item span{
+    vertical-align: middle;
+    font-family: "Alegreya sans";
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.summary-content-item a {
+    color: #969696;
+    text-decoration: none;
+}
+.summary-content-item.mg{
+    margin: 0 0.5%;
+}
+.summary-content-item.last img{
+    width: 15%;
+}
+.summary-content-item.last span{
+    width: 80%;
+}
+hr {
+    border: 1px solid #777777;
+}
+
+/* footer */
+.footer{
+    padding: 50px 0;
+    background-color: #353330;
+}
+.footer-img{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.footer p{
+    color: #777777;
+    font-family:"Alegreya sans";
+    font-size: 16px;
+    text-align: center;
+    margin-block: 20px;
+}
+.footer-icons{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.footer-icons a{
+    width: 3%;
+    background-color: #403d38;
+    margin: 0 5px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.footer-icons a img{
+    width: 100%;
+    vertical-align: middle;
+}
